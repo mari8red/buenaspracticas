@@ -1,9 +1,9 @@
-let Edad_del_usuario = 25;
-function Comprobar_requisitos_del_usuario(){
-    let tieneVehiculo = true;
-    if (Edad_del_usuario >= 18){
+let edad_del_usuario = 25; @param number
+function comprobar_requisitos_del_usuario(){ 
+    let tieneVehiculo = true; @param boolean
+    if (edad_del_usuario >= 18){ 
         if(tieneVehiculo===true){
-            return true;
+            return true; 
         }else {
             return false;
         }
@@ -11,4 +11,4 @@ function Comprobar_requisitos_del_usuario(){
         return false;
     }
 }
-console.log(Comprobar_requisitos_del_usuario());
+console.log(comprobar_requisitos_del_usuario()); @returns boolean
